@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import java.net.URL?>
+<GridPane fx:id="scoreGrid" xmlns:fx="http://javafx.com/fxml/1" alignment="CENTER"
+          xmlns="http://javafx.com/javafx/11" fx:controller="com.app.controller.ScoreController">
+
+    <stylesheets>
+        <URL value="@fxml/style.css"/>
+    </stylesheets>
+
+    <MenuBar fx:id="MENU" GridPane.rowIndex="0">
+        <Menu mnemonicParsing="false" text="File">
+            <MenuItem disable="true"/>
+            <MenuItem disable="true"/>
+            <SeparatorMenuItem/>
+            <MenuItem accelerator="Shortcut+B" mnemonicParsing="false" onAction="#callGoBackToStart" text="Back"/>
+            <SeparatorMenuItem/>
+            <MenuItem accelerator="Shortcut+Q" mnemonicParsing="false" onAction="#callCloseGame" text="Quit"/>
+        </Menu>
+        <Menu disable="true" mnemonicParsing="false" text="Level"/>
+        <Menu mnemonicParsing="false" text="Help">
+            <MenuItem mnemonicParsing="false" text="How to Play"/>
+            <SeparatorMenuItem/>
+            <MenuItem mnemonicParsing="false" text="About the Game"/>
+        </Menu>
+    </MenuBar>
+
+    <GridPane fx:id="titleGrid" alignment="CENTER" GridPane.rowIndex="1">
+        <VBox>
+            <HBox><Label fx:id="title" text="Scoreboard"/></HBox>
+            <!--<HBox>
+                <HBox><Label fx:id="name" text="Name"/></HBox>
+                <HBox><Label fx:id="level" text="Level"/></HBox>
+                <HBox><Label fx:id="moves" text="Moves"/></HBox>
+                <HBox><Label fx:id="time" text="Time"/></HBox>
+            </HBox>-->
+        </VBox>
+    </GridPane>
+
+    <GridPane fx:id="buttonGrid" alignment="CENTER" GridPane.rowIndex="3">
+        <VBox>
+            <HBox>
+                <HBox><Button fx:id="mainMenu" onAction="#callGoBackToStart" text="Back to Menu"/></HBox>
+                <HBox><Button fx:id="nextLevel" onAction="#nextLevel" text="Next Level"/></HBox>
+            </HBox>
+        </VBox>
+    </GridPane>
+</GridPane>

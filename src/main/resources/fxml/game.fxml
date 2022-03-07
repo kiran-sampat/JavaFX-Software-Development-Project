@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import java.net.URL?>
+<GridPane fx:id="gameGrid" xmlns:fx="http://javafx.com/fxml/1" alignment="CENTER"
+          xmlns="http://javafx.com/javafx/11" fx:controller="com.app.controller.GameController">
+
+    <stylesheets>
+        <URL value="@fxml/style.css"/>
+    </stylesheets>
+
+    <MenuBar fx:id="MENU" GridPane.rowIndex="0">
+        <Menu mnemonicParsing="false" text="File">
+            <MenuItem accelerator="Shortcut+S" mnemonicParsing="false" onAction="#saveGame" text="Save Game"/>
+            <MenuItem accelerator="Shortcut+L" mnemonicParsing="false" onAction="#loadGame" text="Load Game"/>
+            <SeparatorMenuItem/>
+            <MenuItem accelerator="Shortcut+B" mnemonicParsing="false" onAction="#goBackToStart" text="Back"/>
+            <SeparatorMenuItem/>
+            <MenuItem accelerator="Shortcut+Q" mnemonicParsing="false" onAction="#closeGame" text="Quit"/>
+        </Menu>
+        <Menu mnemonicParsing="false" text="Level">
+            <MenuItem accelerator="Shortcut+Z" mnemonicParsing="false" onAction="#undo" text="Undo"/>
+            <SeparatorMenuItem/>
+            <RadioMenuItem accelerator="Shortcut+M" mnemonicParsing="false" onAction="#toggleMusic" text="Toggle Music"/>
+            <RadioMenuItem accelerator="Shortcut+X" mnemonicParsing="false" onAction="#toggleDebug" text="Toggle Debug"/>
+            <SeparatorMenuItem/>
+            <MenuItem accelerator="Shortcut+R" mnemonicParsing="false" onAction="#resetLevel" text="Reset Level"/>
+        </Menu>
+        <Menu mnemonicParsing="false" text="Help">
+            <MenuItem mnemonicParsing="false" onAction="#showHelp" text="How to Play"/>
+            <SeparatorMenuItem/>
+            <MenuItem mnemonicParsing="false" onAction="#showAbout" text="About the Game"/>
+        </Menu>
+    </MenuBar>
+
+    <GridPane fx:id="displayGrid" alignment="CENTER" GridPane.rowIndex="1">
+        <VBox>
+            <HBox>
+                <HBox><Label fx:id="levelDisplay" text="Level: 0"/></HBox>
+                <HBox><Label fx:id="timeDisplay" text="Time: "/></HBox>
+                <HBox><Label fx:id="movesDisplay" text="Moves: 0"/></HBox>
+            </HBox>
+        </VBox>
+    </GridPane>
+
+    <GridPane fx:id="boardGrid" alignment="CENTER" GridPane.rowIndex="2"/>
+
+</GridPane>

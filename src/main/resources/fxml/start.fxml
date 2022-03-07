@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import java.net.URL?>
+<GridPane fx:id="startGrid" xmlns:fx="http://javafx.com/fxml/1" alignment="CENTER"
+          xmlns="http://javafx.com/javafx/11" fx:controller="com.app.controller.StartController">
+
+    <stylesheets>
+        <URL value="@fxml/style.css"/>
+    </stylesheets>
+
+    <MenuBar fx:id="MENU" GridPane.rowIndex="0">
+        <Menu disable="true" mnemonicParsing="false" text="File"/>
+        <Menu disable="true" mnemonicParsing="false" text="Level"/>
+        <Menu mnemonicParsing="false" text="Help">
+            <MenuItem mnemonicParsing="false" text="How to Play"/>
+            <SeparatorMenuItem/>
+            <MenuItem mnemonicParsing="false" text="About the Game"/>
+        </Menu>
+    </MenuBar>
+
+    <GridPane fx:id="buttonGrid" alignment="CENTER" GridPane.rowIndex="1">
+        <VBox>
+            <HBox><Label fx:id="title" text="Sokoban"/></HBox>
+            <HBox><Button fx:id="play" onAction="#callStartGame" text="Start Game"/></HBox>
+            <HBox><Button fx:id="load" onAction="#callLoadGame" text="Load Game"/></HBox>
+            <HBox><Button fx:id="settings" onAction="#callSettings" text="Settings"/></HBox>
+            <HBox><Button fx:id="exit" onAction="#closeGame" text="Exit Game"/></HBox>
+        </VBox>
+    </GridPane>
+</GridPane>

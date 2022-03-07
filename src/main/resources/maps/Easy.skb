@@ -1,0 +1,154 @@
+MapSetName: Easy Game
+LevelName: Field 1
+WWWWWWWWWWWWWWWWWWWW
+W        D         W
+W WWW  W  WWW W W  W
+W W   W W W   W W  W
+W WWW WWW WWW  W   W
+W W   W W   W  W   W
+W WWW W W WWW  W W W
+W        C         W
+W                  W
+W                  W
+W                  W
+W                  W
+W                  W
+WWWWW     WWWWWWWWWW
+WW                WW
+WW                WW
+WW           S    WW
+WW                WW
+WWWWWWWWWWWWWWWWWWWW
+WWWWWWWWWWWWWWWWWWWW
+
+LevelName: Spikes 2
+WWWWWWWWWWWWWWWWWWWW
+W     W      W     W
+W                  W
+WW      D  C      WW
+W                  W
+W                  W
+W                  W
+WW   D            WW
+W                  W
+W                  W
+W    C             W
+WW                WW
+W                  W
+W                  W
+W                  W
+WWWW   WWWWWWWWWWWWW
+W                  W
+W            S     W
+W                  W
+WWWWWWWWWWWWWWWWWWWW
+
+LevelName: Fortress 3
+WWWWWWWWWWWWWWWWWWWW
+W WWW WW WW WW WWW W
+WW             D  WW
+WW      C         WW
+WW  C             WW
+W            D     W
+WWWWWWWW  WWWWWWWWWW
+W W WW WW  WW WW W W
+WWWWWWWWWW  WWWWWWWW
+WW    D           WW
+W             C    W
+WW                WW
+WWWWWWWWWW  WWWWWWWW
+W W WW WW  WW WW W W
+WWWWWWWW  WWWWWWWWWW
+W W W          W W W
+WWWWW        S WWWWW
+WWWW            WWWW
+W WWWWWWWWWWWWWWWW W
+WWWWWWWWWWWWWWWWWWWW
+
+LevelName: Jungle 4
+WWWWWWWWWWWWWWWWWWWW
+W   DWW            W
+W   WWWW        W  W
+W    WW       CWWW W
+W         WW   WWW W
+W W      WWWW   W  W
+WWWW      WW       W
+WWWW        C      W
+WDW     W     WWD  W
+W      WWW   WWWW  W
+W      WWW    WW   W
+W  W    W          W
+W WWWC             W
+W WWW           WW W
+W  W       W   WWWWW
+W         WWW   WW W
+W   WW    WWW  S   W
+W  WWWW    W C     W
+W  DWW             W
+WWWWWWWWWWWWWWWWWWWW
+
+LevelName: Waves 5
+WWWWWWWWWWWWWWWWWWWW
+W WWWWWWW  WWWWWWW W
+WW WWWWW    WWWWW WW
+WWW WWW    D WWW WWW
+WWWW W D      W WWWW
+WWWWW  W WW W  WWWWW
+WWWW D   WW     WWWW
+WWW      WW      WWW
+WW      D C   D   WW
+W WWW WWWWWWWW WWW W
+W                  W
+WW      C  C      WW
+WWW  C        C  WWW
+WWWW            WWWW
+WWWWW          WWWWW
+WWWW W  S     W WWWW
+WWW WWW      WWW WWW
+WW WWWWW    WWWWW WW
+W WWWWWWW  WWWWWWW W
+WWWWWWWWWWWWWWWWWWWW
+
+LevelName: Desert 6
+WWWWWWWWWWWWWWWWWWWW
+W DDD       WW     W
+W DDD      W  W  C W
+W              W   W
+W        W         W
+W    WW W        WWW
+W   W  W       C   W
+W  W               W
+W W C    W         W
+WWW  WW  WW  WW    W
+W           W      W
+W          W    W  W
+W         W    C W W
+W    WW  WW  WW  WWW
+W      W           W
+W  W    W          W
+W W      W    S    W
+WW C      WW     C W
+W                  W
+WWWWWWWWWWWWWWWWWWWW
+
+LevelName: Tunnels 7
+WWWWWWWWWWWWWWWWWWWW
+WW  DDWW DDD WWDD  W
+WWW  WWWWWW  WWW W W
+W     WW    WW C   W
+WWW    WW   WW   W W
+WWWW    WW C WW   WW
+WWWW    WWW   WW   W
+WWW    WWW         W
+WW  C WWW   WWW   WW
+W    WWW   WWW   WWW
+WW    WWW   WWW   WW
+WW     WWW WWWWW   W
+WWW          C     W
+WW  C WWWW  WWW   WW
+W    WWWW    WWW   W
+WWWC   WWW C  WWW  W
+WW    WWW    WWW   W
+W    WWW    WWW   WW
+W   WWW    WWWS  WWW
+WWWWWWWWWWWWWWWWWWWW

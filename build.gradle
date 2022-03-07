@@ -1,0 +1,58 @@
+plugins {
+    id 'java'
+    id 'application'
+    id "org.openjfx.javafxplugin" version "0.0.9"
+}
+
+group 'dms.comp2013'
+version '1.0'
+
+sourceCompatibility = 11
+
+repositories {
+    mavenCentral()
+}
+
+test {
+    useJUnitPlatform()
+}
+
+dependencies {
+    implementation 'org.junit.jupiter:junit-jupiter:5.6.2'
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.6.2'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.6.2'
+    testCompileOnly 'org.junit.jupiter:junit-jupiter-engine:5.6.2'
+}
+
+javafx {
+    modules = ['javafx.controls', 'javafx.fxml', 'javafx.media']
+    version = '11.0.2'
+}
+
+sourceSets {
+    main {
+        resources {
+            srcDirs = ["src/main/resources/",
+
+                      "src/main/resources/fxml/",
+
+                      "src/main/resources/images/",
+                      "src/main/resources/images/cod/",
+                      "src/main/resources/images/crate/",
+                      "src/main/resources/images/diamond/",
+                      "src/main/resources/images/floor/",
+                      "src/main/resources/images/keeper/",
+                      "src/main/resources/images/wall/",
+
+                      "src/main/resources/maps/",
+                      "src/main/resources/saves/",
+                      "src/main/resources/scores/",
+                      "src/main/resources/scores/sorted/",
+
+                      "src/main/resources/sound/"
+            ]
+        }
+    }
+}
+
+mainClassName = 'com.app.controller.Main'

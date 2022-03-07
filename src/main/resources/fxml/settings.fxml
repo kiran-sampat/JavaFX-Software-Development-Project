@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import java.net.URL?>
+<GridPane fx:id="settingsGrid" xmlns:fx="http://javafx.com/fxml/1" alignment="CENTER"
+          xmlns="http://javafx.com/javafx/11" fx:controller="com.app.controller.SettingsController">
+
+    <stylesheets>
+        <URL value="@fxml/style.css"/>
+    </stylesheets>
+
+    <MenuBar fx:id="MENU" GridPane.rowIndex="0">
+        <Menu disable="true" mnemonicParsing="false" text="File"/>
+        <Menu disable="true" mnemonicParsing="false" text="Level"/>
+        <Menu mnemonicParsing="false" text="Help">
+            <MenuItem mnemonicParsing="false" text="How to Play"/>
+            <SeparatorMenuItem/>
+            <MenuItem mnemonicParsing="false" text="About the Game"/>
+        </Menu>
+    </MenuBar>
+
+    <GridPane fx:id="buttonGrid" alignment="CENTER" GridPane.rowIndex="1">
+        <VBox>
+            <HBox><Label fx:id="title" text="Settings"/></HBox>
+            <HBox><Button fx:id="color" onAction="#callColor" text="Color"/></HBox>
+            <HBox><Button fx:id="sprites" onAction="#callSprites" text="Sprites"/></HBox>
+            <HBox><Button fx:id="music" onAction="#callToggleMusic" text="Music On/Off"/></HBox>
+            <HBox><Button fx:id="back" onAction="#callGoBackToStart" text="Back"/></HBox>
+        </VBox>
+    </GridPane>
+</GridPane>

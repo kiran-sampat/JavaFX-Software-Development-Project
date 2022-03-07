@@ -1,0 +1,134 @@
+#startGrid
+{
+    -fx-background-color: Brown;
+}
+
+#buttonGrid
+{
+    -fx-background-color: BurlyWood;
+}
+
+#buttonGrid VBox
+{
+    -fx-padding: 20px 40px 15px;
+}
+
+#buttonGrid VBox HBox
+{
+    -fx-padding: 20px 40px 15px;
+    -fx-alignment: top-center;
+}
+
+#buttonGrid VBox HBox #title
+{
+    -fx-text-fill : DarkRed;
+    -fx-font-size : 40px;
+    -fx-font-weight : bold;
+    -fx-font-style: oblique;
+    -fx-font-family: "Comic Sans MS";
+}
+
+#buttonGrid VBox HBox Button
+{
+    -fx-background-insets: 0 0 0 0;
+
+    -fx-background-radius: 30px; /* java fx requires both two round the button, but button is still clickable off the button */
+    -fx-border-radius: 20px; /* this is not working on its own */
+
+    -fx-pref-width: 220px;
+    -fx-pref-height: 60px;
+    -fx-border-width: 5px;
+    -fx-border-color: DarkRed;
+    -fx-background-color: linear-gradient(Brown, Chocolate);
+    /* gradient from DarkCyan at top to DarkSlateGray at bottom */
+    /*-fx-background-color : DarkCyan;*/
+    -fx-font-size: 24px;
+    -fx-text-fill: White;
+    -fx-font-weight: bold;
+    -fx-font-family: "Arial";
+    /*-fx-text-align: left; Try to align text in the button to left*/
+    /* button shadow */
+    /*right positive, bottom positive, soft overall shadow, hard overall shadow*/
+}
+
+#buttonGrid VBox HBox Button:hover
+{
+    -fx-border-color: OrangeRed;
+    -fx-background-color: linear-gradient(Chocolate, Brown);
+    -fx-text-fill: AntiqueWhite;
+}
+
+#buttonGrid VBox HBox Button:pressed
+{
+    -fx-border-color: BurlyWood;
+    -fx-text-fill: PapayaWhip;
+}
+
+#titleGrid VBox HBox
+{
+    -fx-padding: 20px 40px 20px;
+    -fx-alignment: top-center;
+}
+
+#titleGrid VBox HBox #title
+{
+    -fx-text-fill : DarkRed;
+    -fx-font-size : 40px;
+    -fx-font-weight : bold;
+    -fx-font-style: oblique;
+    -fx-font-family: "Comic Sans MS";
+}
+
+#displayGrid
+{
+    -fx-background-color: BurlyWood;
+}
+
+#displayGrid VBox HBox HBox
+{
+    -fx-padding: 0 30px 0 30px;
+}
+
+#displayGrid VBox HBox HBox Label
+{
+    -fx-text-fill : DarkRed;
+    -fx-font-size : 24px;
+    -fx-font-weight : bold;
+    -fx-font-style: oblique;
+    -fx-font-family: "Comic Sans MS";
+}
+
+#scoreGrid
+{
+    -fx-background-color: BurlyWood;
+}
+
+#colorGrid
+{
+    -fx-background-color: BurlyWood;
+}
+
+#spritesGrid
+{
+    -fx-background-color: BurlyWood;
+}
+
+.spriteButtons
+{
+    -fx-background-color: transparent;
+    -fx-border-width: 2px;
+    -fx-border-color: transparent;
+    -fx-padding: 1 2 1 2;
+}
+
+.spriteButtons:hover
+{
+    -fx-border-color: DarkSlateGray;
+    -fx-background-color: DarkGray;
+}
+
+.spriteButtons:pressed
+{
+    -fx-border-color: Black;
+    -fx-background-color: Brown;
+}
